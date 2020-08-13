@@ -21,6 +21,10 @@ This was followed by creating, cross-validating and evaluating multiple classifi
 We also saw that the top features of this model related not only to particular locations/traps, but also to specific weather features, owing to the relationship between mosquito breeding, temperature rises and humidity.
 Finally, a cost-benefit analysis was run examining the impact of spraying (or not spraying) pesticides in Chicago specifically in 2020, before expanding upon the subject and making realistic notes about the assumptions we made (and didn’t make). We also offered a 3-pronged solution to help address the WNV issue.
 
+## Content
+1. [Data Cleaning and EDA](./codes/01_eda_and_feature_engineering.ipynb)
+2. [Modeling and Insights](./codes/02_modelling_cost_benefit_analysis_and_conclusion.ipynb)
+
 ## Project Planning
 Deliverables: our end result is 1)a predictive "Extreme" Gradient Boosting model to predict the presence of WNV, as well as 2) a cost benefit analysis examining whether spraying is justified as a primary means for transmission control. 3) We also recommend extraneous solutions based on external research to the CDC, culminating in a group presentation to our stakeholders, the CDC.
 
@@ -55,7 +59,7 @@ After conducting a cost-benefit analysis, there are 3 recommendations we make to
 
 
 Sources:
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3322011/#:~:text=Total%20epidemic%20costs%20were%20≈,and%20public%20health%20agency%20costs.
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3945683/
-https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0227160#pone-0227160-t002
-https://www.inflationtool.com/us-dollar/2012-to-present-value
+- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3322011/#:~:text=Total%20epidemic%20costs%20were%20≈,and%20public%20health%20agency%20costs.
+- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3945683/
+- https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0227160#pone-0227160-t002
+- https://www.inflationtool.com/us-dollar/2012-to-present-value
