@@ -12,6 +12,9 @@ In order to maximise control of adult mosquito populations with spray airborne p
 
 Success is evaluated using AUC-ROC curve between the predicted probability that West Nile Virus is present and the observed outcomes.
 
+##### Tools and Libraries Used:
+python, pandas, numpy, seaborn, matplotlib, scikit-learn, XGBoost, plotly
+
 ## Executive Summary
 
 Utilizing weather, geographic, and mosquito collection data from Chicago that was analyzed, cleaned, processed and ran through several classification models. 
